@@ -62,6 +62,9 @@ st.write('forecast graph')
 fig1 = plot_plotly(m, forecast,xlabel='Future Forecast',ylabel='Prediction')
 st.plotly_chart(fig1)
 
-st.write('forecast components')
+st.write('forecast Prediction on all time basis')
 fig2 = m.plot_components(forecast)
 st.write(fig2)
+
+
+st.write('AUTHOR: BY THIRUMARAN ASOKAN..')
