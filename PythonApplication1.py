@@ -63,5 +63,5 @@ fig1 = plot_plotly(m, forecast,xlabel='Future Forecast',ylabel='Prediction')
 st.plotly_chart(fig1)
 
 st.write('forecast components')
-fig2 = m.plot_components(forecast,xlabel='future prediction')
+fig2 = m.plot_components(forecast)
 st.write(fig2)
